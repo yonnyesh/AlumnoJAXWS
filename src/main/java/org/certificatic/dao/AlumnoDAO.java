@@ -9,5 +9,9 @@ public interface AlumnoDAO {
 	Alumno guardarAlumno(Alumno alumno);
 	
 	List<Alumno> obtenerAlumnos();
+	
+	public void save(Alumno alumno);
+	
+	public List<Alumno> findAll();
 
 }

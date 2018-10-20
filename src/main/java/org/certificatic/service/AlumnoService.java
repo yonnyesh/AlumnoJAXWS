@@ -12,5 +12,9 @@ public interface AlumnoService {
 	Alumno guardarAlumno(Alumno alumno);
 	
 	List<Alumno> obtenerAlumnos();
+	
+	public void save(Alumno alumno);
+	
+	public List<Alumno> findAll();
 
 }
